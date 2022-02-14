@@ -12,6 +12,26 @@ This week we will revisit writing C programs.  In IT1050 the programming languag
 Write a C program to input marks of two subjects. Calculate and print the average of the two marks.
 
 Program File - [Tute01.c](Tute01.c)
+
+#include <stdio.h>
+int main()
+{
+  int mark1,mark2;
+  float average;
+
+  printf("Enter Mark1 : ");
+  scanf("%d", &mark1);
+
+  printf("Enter Mark2 : ");
+  scanf("%d", &mark2);
+
+  average = (mark1 + mark2)/2.0;
+  printf("Average = %2f",average);
+
+  return 0;
+
+
+
  
 ## Exercise 2 - Selection
 
